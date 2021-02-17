@@ -2,7 +2,7 @@
 $servername = "172.17.0.2";
 $username = "root";
 $password = "DockerRules";
-$dbname = "Trucorp";
+$dbname = "Trucorpdb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
