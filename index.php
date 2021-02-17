@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
     $count++;
     echo "id: " . $row["id"]. "<br> - Name: " . $row["nama"]. "<br> kantor " . $row["kantor"]. "<br> <br>";
   }
-  echo "jumlah user dalam database adalah : " . $count
+  echo "jumlah user dalam database adalah : " . $count;
 } else {
   echo "no results";
 }
